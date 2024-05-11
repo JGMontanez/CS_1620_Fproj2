@@ -1,4 +1,6 @@
 # tik tak toe: main file
+from logic import *
+
 
 def main():
     application = QApplication([])
