@@ -126,6 +126,7 @@ class Logic(QStackedWidget, Ui_StackedWidget):
         """
         if os.path.isfile('stats.csv'):
             with open('stats.csv', 'r') as data_file:
+                reader = csv.reader(data_file)
 
         # check for stats.csv
         # read if found
